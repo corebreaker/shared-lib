@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspaces/shared-lib:cached
+      - /cdp:/cdp
+    command: /bin/sh -c "while sleep 1000; do :; done"
