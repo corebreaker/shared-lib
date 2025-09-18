@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# Specific binaries
+consumer/consumer
+utils/utils
+
 # Test binary, built with `go test -c`
 *.test
 
