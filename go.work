@@ -1,8 +1,8 @@
 go 1.25.0
 
 use (
-	./consumer
 	./mylib/lib1
 	./mylib/lib2
-	./utils
+	./mylib/lib3/v0.2.0
+	./mylib/lib4/v0.2.0
 )
