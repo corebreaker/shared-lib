@@ -3,4 +3,6 @@ go 1.24.7
 use (
 	./consumer
 	./utils
+	./mylib/lib1
+	./mylib/lib2
 )
